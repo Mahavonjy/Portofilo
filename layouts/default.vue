@@ -1,8 +1,19 @@
 <template>
   <div>
+    <headers/>
     <nuxt />
   </div>
 </template>
+
+<script>
+    import headers from "./headers"
+
+    export default {
+        components: {
+            headers,
+        }
+    }
+</script>
 
 <style>
 html {

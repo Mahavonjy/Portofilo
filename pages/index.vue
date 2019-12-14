@@ -1,6 +1,5 @@
 <template>
   <div>
-    <Header/>
     <Intro/>
     <About/>
     <Service/>
@@ -36,16 +35,14 @@
 </template>
 
 <script>
-import Header from "./Header"
 import Intro from "./Intro"
-import About from "./About"
-import Service from "./Service"
-import WorkStat from "./WorkStat"
-import Footer from "./Footer"
+import About from "./about"
+import Service from "./service"
+import WorkStat from "./workStat"
+import Footer from "./footer"
 
 export default {
     components: {
-        Header,
         Intro,
         About,
         Service,

@@ -35,10 +35,11 @@
 
 <script>
     export default {
-        name: "Header"
+        name: "headers"
     }
 </script>
 
 <style scoped>
 
 </style>
+
